@@ -1,2 +1,4 @@
 env
 staticfiles
+*.pyc
+*.cpython-36.pyc
