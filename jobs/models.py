@@ -2,11 +2,24 @@ from django.db import models
 
 
 class Category(models.Model):
+
+    class Meta:
+        verbose_name_plural = "Categories"
+
     slug = models.CharField(max_length=30, unique=True)
     name = models.CharField(max_length=128, unique=True)
 
+    def __str__(self):
+        return '<Category: [{slug}] {name}>'.format(
+            slug=self.slug,
+            name=self.name)
+
 
 class JobClass(models.Model):
+
+    class Meta:
+        verbose_name_plural = "Job Classes"
+
     time_created = models.DateTimeField(auto_now_add=True)
     time_updated = models.DateTimeField(auto_now=True)
 
@@ -29,3 +42,6 @@ class JobClass(models.Model):
     qualifications = models.TextField()
     responsibilities = models.TextField()
     exam_notes = models.TextField()
+
+    def __str__(self):
+        return '<JobClass: {title}'.format(title=self.title)
