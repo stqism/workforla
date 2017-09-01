@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  db:
+    container_name: workforla-mysql
+    ports:
+      - 3306:3306
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: donuts
+      MYSQL_DATABASE: workforla_db
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: crisis
+    volumes:
+      - ./dev/env:/etc/mysql/conf.d
