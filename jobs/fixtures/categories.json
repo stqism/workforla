@@ -1,0 +1,138 @@
+[
+    {
+        "fields": {
+            "name": "Accounting and Finance",
+            "slug": "accounting_and_finance"
+        },
+        "model": "jobs.category",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "name": "Architecture and Engineering",
+            "slug": "architecture_and_engineering"
+        },
+        "model": "jobs.category",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "name": "Arts, Design, Media",
+            "slug": "arts_design_media"
+        },
+        "model": "jobs.category",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "name": "Business Operations",
+            "slug": "business_operations"
+        },
+        "model": "jobs.category",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "name": "Community and Social Service",
+            "slug": "community_and_social_service"
+        },
+        "model": "jobs.category",
+        "pk": 5
+    },
+    {
+        "fields": {
+            "name": "Construction",
+            "slug": "construction"
+        },
+        "model": "jobs.category",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "name": "Education",
+            "slug": "education"
+        },
+        "model": "jobs.category",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "name": "Healthcare",
+            "slug": "healthcare"
+        },
+        "model": "jobs.category",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "name": "Installation and Repair",
+            "slug": "installation_and_repair"
+        },
+        "model": "jobs.category",
+        "pk": 9
+    },
+    {
+        "fields": {
+            "name": "Legal",
+            "slug": "legal"
+        },
+        "model": "jobs.category",
+        "pk": 10
+    },
+    {
+        "fields": {
+            "name": "Maintenance",
+            "slug": "maintenance"
+        },
+        "model": "jobs.category",
+        "pk": 11
+    },
+    {
+        "fields": {
+            "name": "Marketing",
+            "slug": "marketing"
+        },
+        "model": "jobs.category",
+        "pk": 12
+    },
+    {
+        "fields": {
+            "name": "Office and Administration",
+            "slug": "office_and_administration"
+        },
+        "model": "jobs.category",
+        "pk": 13
+    },
+    {
+        "fields": {
+            "name": "Protective Services",
+            "slug": "protective_services"
+        },
+        "model": "jobs.category",
+        "pk": 14
+    },
+    {
+        "fields": {
+            "name": "Sciences",
+            "slug": "sciences"
+        },
+        "model": "jobs.category",
+        "pk": 15
+    },
+    {
+        "fields": {
+            "name": "Technology",
+            "slug": "technology"
+        },
+        "model": "jobs.category",
+        "pk": 16
+    },
+    {
+        "fields": {
+            "name": "Transportation",
+            "slug": "transportation"
+        },
+        "model": "jobs.category",
+        "pk": 17
+    }
+]

@@ -1,13 +1,23 @@
 from django.db import models
 
 
+class CategoryManager(models.Manager):
+    def get_by_natural_key(self, category_name):
+        return self.get(name=category_name)
+
+
 class Category(models.Model):
 
     class Meta:
         verbose_name_plural = "Categories"
 
+    objects = CategoryManager()
+
     slug = models.CharField(max_length=30, unique=True)
     name = models.CharField(max_length=128, unique=True)
+
+    def natural_key(self):
+        return (self.name,)
 
     def __str__(self):
         return '<Category: [{slug}] {name}>'.format(
