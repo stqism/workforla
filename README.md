@@ -20,6 +20,7 @@ git clone git@github.com:alexchao/workforla.git
 Setup Python virtualenv (install Python 3.x if you haven't already):
 
 ```
+cd workforla/
 python -m venv env
 ```
 
