@@ -33,8 +33,13 @@ class JobClass(models.Model):
     time_created = models.DateTimeField(auto_now_add=True)
     time_updated = models.DateTimeField(auto_now=True)
 
+    # Human-friendly ID
+    alias = models.CharField(default='', max_length=200, unique=True)
+
+    # External identifiers
     class_code = models.IntegerField(unique=True)
     classspec_id = models.IntegerField(unique=True)
+
     title = models.CharField(max_length=200)
     occupational_category = models.CharField(max_length=200)
     skills = models.CharField(max_length=200)
