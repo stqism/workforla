@@ -34,6 +34,7 @@ Spin up database (requires [Docker](https://www.docker.com/), but you could also
 
 ```
 docker-compose up
+env/bin/python manage.py migrate
 ```
 
 Preload some data:
