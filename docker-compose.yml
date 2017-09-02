@@ -12,5 +12,3 @@ services:
       MYSQL_DATABASE: workforla_db
       MYSQL_USER: admin
       MYSQL_PASSWORD: crisis
-    volumes:
-      - ./dev/env:/etc/mysql/conf.d
