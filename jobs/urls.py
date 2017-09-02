@@ -4,5 +4,6 @@ from . import views
 
 
 urlpatterns = [
-    url(r'^$', views.index, name='index')
+    url(r'^(?P<job_alias>[a-z-]+)', views.details, name='details'),
+    url(r'^', views.index, name='index')
 ]
