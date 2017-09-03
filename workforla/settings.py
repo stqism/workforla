@@ -138,12 +138,3 @@ STATICFILES_DIRS = (
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
-
-# Elastic Search settings
-
-ES_SETTINGS = {
-    'host': '127.0.0.1',
-    'port': '9200',
-    'username': 'elastic',
-    'password': 'lacitycrisis'
-}
