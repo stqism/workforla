@@ -4,13 +4,33 @@
 
 {% block content %}
   <h1>Job Details</h1>
-  <h2>{{ job.title }}</h2>
-  <h3>Salary</h3>
-  <p>{{ job.salary_low }} &ndash; {{ job.salary_high }} monthly</p>
 
-  <div class="jd-description">
-    {{ job.description }}
+  <div class="jd-job-header">
+    <h2 class="display-4">{{ job.title }}</h2>
+    <h3>Salary</h3>
+    <p>{{ job.salary_low }} &ndash; {{ job.salary_high }} annually</p>
   </div>
 
-  <p>{{ time }}</p>
+  <h3>Exam Date</h3>
+  <p>TBD</p>
+
+  <h3>Description</h3>
+  <div class="jd-section">
+    <p>{% autoescape off %}{{ job.description }}{% endautoescape %}</p>
+  </div>
+
+  <h3>Responsibilities</h3>
+  <div class="jd-section">
+    {% autoescape off %}{{ job.responsibilities }}{% endautoescape %}
+  </div>
+
+  <h3>Minimum Qualifications</h3>
+  <div class="jd-section">
+    {% autoescape off %}{{ job.qualifications }}{% endautoescape %}
+  </div>
+
+  <h3>Exam Notes</h3>
+  <div class="jd-section">
+    <p>{% autoescape off %}{{ job.exam_notes }}{% endautoescape %}</p>
+  </div>
 {% endblock %}
