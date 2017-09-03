@@ -36,3 +36,7 @@ class JobDetailsTestCase(TestCase):
         response = self.client.get('/jobs/accountant')
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.context['job'].title, 'Accountant')
+
+    def test_404_for_bad_alias(self):
+        response = self.client.get('/jobs/personal-assistant-for-leonard')
+        self.assertEqual(response.status_code, 404)
