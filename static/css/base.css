@@ -1,11 +1,20 @@
-body {
-  padding-top: 3.5rem;
-}
-
 .jumbotron h2 {
   font-weight: normal;
   margin-bottom: 0.5em;
 }
+
+.footer {
+  padding: 1rem;
+}
+
+.contact-cta {
+  color: #fff;
+}
+
+.footer a:link    { color: #fff; }
+.footer a:active  { color: #fff; }
+.footer a:visited { color: #fff; }
+.footer a:hover   { color: #fff; }
 
 /*** Job Details ***/
 
