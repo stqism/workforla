@@ -13,4 +13,4 @@ services:
       MYSQL_USER: admin
       MYSQL_PASSWORD: crisis
     volumes:
-      - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+      - ./dev-bootstrap/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
