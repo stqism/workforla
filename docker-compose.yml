@@ -2,7 +2,7 @@ version: '2'
 
 services:
   db:
-    container_name: workforla-mysql
+    container_name: workforla-mysql-dev
     ports:
       - 3306:3306
     image: mysql:5.7
@@ -12,3 +12,5 @@ services:
       MYSQL_DATABASE: workforla_db
       MYSQL_USER: admin
       MYSQL_PASSWORD: crisis
+    volumes:
+      - ./docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
