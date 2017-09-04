@@ -50,6 +50,13 @@ Start server:
 heroku local web
 ```
 
+If you get a `gunicorn`-related error starting up the server, make sure you're
+in your `virtualenv` context by running the following first:
+
+```
+source env/bin/activate
+```
+
 ## Tests
 
 Run tests the standard Django way:
