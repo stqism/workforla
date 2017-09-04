@@ -49,3 +49,18 @@ Start server:
 ```
 heroku local web
 ```
+
+## Tests
+
+Run tests the standard Django way:
+
+```
+env/bin/python manage.py test
+```
+
+If you get a `ValueError: Missing staticfiles manifest entry for [some asset]`
+error, run the following command then try again:
+
+```
+env/bin/python manage.py collectstatic
+```
