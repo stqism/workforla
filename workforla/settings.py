@@ -142,3 +142,7 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 # Use Django's connection pooling.
 db_from_env = dj_database_url.config()
 DATABASES['default'].update(db_from_env)
+
+
+# Elasticsearch
+ES_HOST = os.environ.get('SEARCHBOX_URL') or 'http://127.0.0.1:9200/'
