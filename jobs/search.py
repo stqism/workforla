@@ -13,13 +13,12 @@ connections.create_connection(hosts=[settings.ES_HOST])
 
 def format_job_for_indexing(job_model):
     record = JobClassIndex(
-        meta={
-            'id': job_model.id,
-            'alias': job_model.alias
-        },
+        meta={'id': job_model.id},
+        alias=job_model.alias,
         title=job_model.title,
         description=job_model.description,
         qualifications=job_model.qualifications,
+        responsibilities=job_model.responsibilities,
         categories=[c.name for c in job_model.categories.all()],
         skills=job_model.skills,
         related_keywords=job_model.related_keywords,

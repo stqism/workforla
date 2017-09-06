@@ -4,9 +4,11 @@ from elasticsearch_dsl import Text
 
 
 class JobClassIndex(DocType):
+    alias = Text()
     title = Text()
     description = Text()
     qualifications = Text()
+    responsibilities = Text()
     categories = Text()
     skills = Text()
     related_keywords = Text()
