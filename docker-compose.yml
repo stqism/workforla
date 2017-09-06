@@ -14,3 +14,10 @@ services:
       MYSQL_PASSWORD: crisis
     volumes:
       - ./dev-bootstrap/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+
+  elasticsearch:
+    container_name: workforla-elasticsearch
+    restart: always
+    image: elasticsearch:5.5
+    ports:
+      - 9200:9200
