@@ -59,4 +59,6 @@ class JobClass(models.Model):
     exam_notes = models.TextField()
 
     def __str__(self):
-        return '<JobClass: {title}'.format(title=self.title)
+        return '<JobClass: [{class_code}] {title}>'.format(
+            class_code=self.class_code,
+            title=self.title)
