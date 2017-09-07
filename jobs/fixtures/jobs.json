@@ -27,7 +27,7 @@
             "alias": "supply-services-payment-clerk",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1000
+            "class_code": 1214
         }
     },
     {
@@ -55,7 +55,7 @@
             "alias": "workers-compensation-analyst",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1001
+            "class_code": 1774
         }
     },
     {
@@ -83,7 +83,7 @@
             "alias": "tax-auditor",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1002
+            "class_code": 1514
         }
     },
     {
@@ -111,7 +111,7 @@
             "alias": "utility-accountant",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1003
+            "class_code": 1511
         }
     },
     {
@@ -142,7 +142,7 @@
             "alias": "hydrographer",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1004
+            "class_code": 7623
         }
     },
     {
@@ -170,7 +170,7 @@
             "alias": "architectural-associate",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1005
+            "class_code": 7926
         }
     },
     {
@@ -198,7 +198,7 @@
             "alias": "structural-engineering-associate",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1006
+            "class_code": 7957
         }
     },
     {
@@ -226,7 +226,7 @@
             "alias": "mechanical-engineering-associate",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1007
+            "class_code": 7554
         }
     },
     {
@@ -257,7 +257,7 @@
             "alias": "transportation-engineering-associate",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1008
+            "class_code": 7280
         }
     },
     {
@@ -285,7 +285,7 @@
             "alias": "electrical-engineering-associate",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1009
+            "class_code": 7525
         }
     },
     {
@@ -313,7 +313,7 @@
             "alias": "street-lighting-engineering-associate",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1010
+            "class_code": 7527
         }
     },
     {
@@ -341,7 +341,7 @@
             "alias": "civil-engineering-associate",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1011
+            "class_code": 7246
         }
     },
     {
@@ -349,7 +349,7 @@
         "pk": 13,
         "fields": {
             "classspec_id": 741236,
-            "title": "ELECTRICAL TESTER",
+            "title": "ELECTRICAL TEST TECHNICIAN",
             "description": "An entry-level Electrical Tester receives intensive classroom and on-the-job instruction and training. The trainee is supervised by a Senior Electrical Tester and works as a trainee assisting journey-level electrical workers within the Testing Laboratories in the performance of diagnostic tests, calibration, repair, maintenance, and adjustments on: high and low voltage electrical circuits, equipment and related material; meters, smart-grid systems, conventional and renewable generation resources, control circuits, instruments, relays and related equipment and materials; new locations; and performs related duties. A journey-level Electrical Tester: performs routine calibration tests of meters; makes routine electrical tests of material; assists in testing more complex electric instruments and equipment; tests and replaces electric meters, control and protective relays, instruments, transformers, and other equipment and materials; performs cathodic protection in underground and abovehead structures; performs infrared inspection of high voltage overhead distribution systems; and builds and test circuit boards, removes or replaces components, and tests communication levels, in regard to facility/substation Supervisory Control and Data Acquisition (SCADA) systems, Remote Terminal Units (RTU), and other control systems. Journey-level Electrical Testers may also: lead a group of employees engaged in field or laboratory electrical testing; perform the more difficult and advanced functions of electrical testing; and perform related duties.",
             "qualifications": "<ul><li>Six months of full-time paid experience and current employment as a helper or trainee for a utility performing work on equipment and circuits, construction and maintenance; or</li> <li>Completion of eight months in the Utility Pre-Craft Trainee training program sponsored by the Los Angeles Department of Water and Power; or</li> <li>Successful completion of three semester units or four quarter units from an accredited college or university or trade school in physics, chemistry, electricity, or electronics; or</li> <li>Successful completion of the Pre-Electrical Craft Helper training course presented by the Los Angeles Trade Technical College; or</li> <li>Six months of full-time experience performing electrical work on equipment and circuits in the maintenance or construction of electrical systems while in the United States Armed Forces.</li></ul>",
             "responsibilities": "<ul> <li>Inspects (visually) and performs tests (e.g., Alternating Current (AC) high potential (Hipot), Series Resonance, Very Low Frequency (VLF), 60 Hertz, Power Factor, Transformer Ratio and Winding Resistance, Acoustic and Partial Discharge) on electrical apparatuses (e.g., cables, transformers, power circuit breakers, instrument transformers, generators, capacitors, voltage regulators, and switches) using alternating current/direct current (AC/DC) Hipot test set and Doble Power Factor test set devices to ensure equipment and apparatuses are in operable condition.</li> <li>Calibrates self-contained single-phase watthour meters in the laboratory by performing standard laboratory tests on electromechanical and microprocessor based watthour meters such as injecting current and voltage into both single-phase watthour meters and a standard reference meter, and comparing the readings from both meters in order to obtain percentage accuracy, register ratio and capacity, and transformer ratio data.</li> <li>Modifies and repairs instruments and apparatuses in the field and laboratory such as supervisory control and data acquisition (SCADA), remote terminal units, digital fault recorders, and temperature chart recorders using various testing devices such as ammeters, voltmeters, meggers, frequency meters, and oscilloscopes and handtools such as screwdrivers, sidecutters, crimping tools, and soldering tools in order to restore instruments and apparatuses to working condition.</li> <li>Tests, inspects, adjusts, and repairs metering equipment (e.g. self-contained singlephase watthour meters), electricity metering equipment (e.g. voltmeters, ammeters, megawatts, megavars), instrument transformers, protective relay equipment (e.g., differential relays, frequency hertz relays, voltage relays, power relays, demand meters, intelligent electronic devices (IED), programmable logic controllers (PLC), overcurrent relays), totalizers, load survey equipment (e.g., power recorders, voltage recorders), and interchange metering systems in the field using AC/DC current and voltage test sets to ensure equipment are in operable condition.</li> <li>Inspects electrical protective devices and equipment such as rubber gloves, blankets, and line hoses for cuts, scratches, and other defects by performing dielectric-withstand tests using dielectric-withstand test sets to determine the quality of the insulation and whether the protective devices and equipment are suitable for future use.</li> <li>Tests (dielectric) transformers, oil circuit breakers, and regulators by performing dissolved gas analysis (DGA) using oil Hipot test sets to identify furan and to adhere to Department of Water and Power, Institute of Electrical and Electronic Engineer (IEEE), and manufacturer standards. </li> <li>Tests buried and submerged structures in the power system such as underground vaults and ground grids for corrosion, resistance, and temperature using resistance bridge test sets to ensure adherence to design standards and specifications.</li> <li>Calibrates and repairs protective equipment such as relays, carrier frequency oscillators, coupling devices, wave traps, and their associated electrical circuits at generating, switching, receiving, distributing, commercial, and industrial stations using variable signal generators, multimeters, oscilloscopes, and power recorders to ensure proper operation.</li> <li>Ensures power system equipment purchased by the Department of Water and Power (DWP) such as power transformers, circuit breakers, reactors, generators, and high voltage regulators meets DWP specifications by performing acceptance testing (e.g., applying an overvoltage to cable systems for a short duration) of the equipment using AC/DC Hipot test sets and Doble Power Factor test sets.</li> <li>Conducts protective relay maintenance (e.g., cleaning surface of electromechanical devices such as a meter using equipment and material such as a burnisher or sand paper in order to remove oxidation from electromechanical devices; calibrating overcurrent relay devices such as a short circuit detector by injecting secondary test current or voltage using a laboratory power supply) on overcurrent relay, differential relays, frequency hertz relays, voltage relays, power relays, demand meters, and IED\u2019s at Department of Water and Power electrical substations such as the Generation, Transmission, and Distribution power system facilities in order to comply with Protection Reliability Control (PRC), North American Electric Reliability Corporation (NERC), and Critical Infrastructure Protection (CIP) regulatory requirements.</li> <li>Documents work performed such as testing, calibration, and data entry using paper and pencil and Microsoft Office to create a record of the work being performed in order to submit documentation to supervisor for review and to establish performance benchmarks for future tests.</li> <li>Answers inquiries from DWP customers and personnel regarding power quality and billing complaints by telephone, email, and in-person, and performs necessary steps to resolve issues independently (e.g., replacing a faulty meter with a new meter) or refers the inquirers to appropriate personnel (e.g., Field Investigation, Major Account, Rates Group) better suited to respond to such inquiries in order to provide quality customer service.</li> </ul>",
@@ -366,10 +366,10 @@
             "salary_high": 0,
             "external_url": "https://www.governmentjobs.com/careers/lacity/classspecs/741236",
             "career_ladder_url": "",
-            "alias": "electrical-tester",
+            "alias": "electrical-test-technician",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1012
+            "class_code": 7512
         }
     },
     {
@@ -397,7 +397,7 @@
             "alias": "environmental-engineering-associate",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1013
+            "class_code": 7871
         }
     },
     {
@@ -425,7 +425,7 @@
             "alias": "safety-engineer",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1014
+            "class_code": 1727
         }
     },
     {
@@ -453,7 +453,7 @@
             "alias": "load-dispatcher",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1015
+            "class_code": 5233
         }
     },
     {
@@ -481,7 +481,7 @@
             "alias": "chief-of-airport-planning",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1016
+            "class_code": 7945
         }
     },
     {
@@ -509,7 +509,7 @@
             "alias": "electrical-engineering-drafting-technician",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1017
+            "class_code": 7532
         }
     },
     {
@@ -537,7 +537,7 @@
             "alias": "electric-distribution-mechanic-entry",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1018
+            "class_code": 3879
         }
     },
     {
@@ -568,7 +568,7 @@
             "alias": "data-processing-technician",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1019
+            "class_code": 1136
         }
     },
     {
@@ -596,7 +596,7 @@
             "alias": "wastewater-treatment-electrician",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1020
+            "class_code": 5615
         }
     },
     {
@@ -624,7 +624,7 @@
             "alias": "safety-engineer-pressure-vessels",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1021
+            "class_code": 4261
         }
     },
     {
@@ -652,7 +652,7 @@
             "alias": "field-engineering-aide",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1022
+            "class_code": 7228
         }
     },
     {
@@ -680,7 +680,7 @@
             "alias": "senior-city-planner",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1023
+            "class_code": 7947
         }
     },
     {
@@ -711,7 +711,7 @@
             "alias": "programmer-analyst",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1024
+            "class_code": 1431
         }
     },
     {
@@ -739,7 +739,7 @@
             "alias": "electric-distribution-mechanic",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1025
+            "class_code": 3879
         }
     },
     {
@@ -770,7 +770,7 @@
             "alias": "public-relations-specialist",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1026
+            "class_code": 1785
         }
     },
     {
@@ -801,7 +801,7 @@
             "alias": "video-production-coordinator",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1027
+            "class_code": 1802
         }
     },
     {
@@ -829,7 +829,7 @@
             "alias": "senior-parking-attendant",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1028
+            "class_code": 3529
         }
     },
     {
@@ -857,7 +857,7 @@
             "alias": "risk-management-prevention-program-specialist",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1029
+            "class_code": 7980
         }
     },
     {
@@ -885,7 +885,7 @@
             "alias": "electric-station-operator",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1030
+            "class_code": 5224
         }
     },
     {
@@ -913,7 +913,7 @@
             "alias": "senior-housing-investigator",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1031
+            "class_code": 8517
         }
     },
     {
@@ -941,7 +941,7 @@
             "alias": "recreation-facility-director",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1032
+            "class_code": 2434
         }
     },
     {
@@ -969,7 +969,7 @@
             "alias": "animal-control-officer",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1033
+            "class_code": 4311
         }
     },
     {
@@ -997,7 +997,7 @@
             "alias": "park-ranger",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1034
+            "class_code": 1966
         }
     },
     {
@@ -1025,7 +1025,7 @@
             "alias": "heavy-duty-equipment-mechanic",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1035
+            "class_code": 3743
         }
     },
     {
@@ -1053,7 +1053,7 @@
             "alias": "equipment-operator",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1036
+            "class_code": 3525
         }
     },
     {
@@ -1081,7 +1081,7 @@
             "alias": "construction-inspector",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1037
+            "class_code": 7291
         }
     },
     {
@@ -1109,7 +1109,7 @@
             "alias": "power-shovel-operator",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1038
+            "class_code": 3558
         }
     },
     {
@@ -1137,7 +1137,7 @@
             "alias": "performing-arts-director",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1039
+            "class_code": 2449
         }
     },
     {
@@ -1168,7 +1168,7 @@
             "alias": "principal-librarian",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1040
+            "class_code": 6155
         }
     },
     {
@@ -1196,7 +1196,7 @@
             "alias": "mechanical-helper",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1041
+            "class_code": 3771
         }
     },
     {
@@ -1224,7 +1224,7 @@
             "alias": "correctional-nurse",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1042
+            "class_code": 2317
         }
     },
     {
@@ -1252,7 +1252,7 @@
             "alias": "wastewater-treatment-operator",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1043
+            "class_code": 4123
         }
     },
     {
@@ -1280,7 +1280,7 @@
             "alias": "occupational-health-nurse",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1044
+            "class_code": 2314
         }
     },
     {
@@ -1308,16 +1308,16 @@
             "alias": "veterinary-technician",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1045
+            "class_code": 2369
         }
     },
     {
         "model": "jobs.jobclass",
         "pk": 47,
         "fields": {
-            "classspec_id": 741377,
-            "title": "ADVANCE PRACTICE PROVIDER CORRECTIONAL CARE",
-            "description": "An Advance Practice Provider Correctional Care is responsible for obtaining medical histories, performing physical examinations, ordering and interpreting diagnostic tests, assessing medical conditions, providing medical care and treatment, and performing related duties as required under standardized procedures and/or protocols established by the department in one of the City\u2019s correctional care facilities.",
+            "classspec_id": 1196792,
+            "title": "ADVANCE PRACTICE PROVIDER",
+            "description": "An Advance Practice Provider is responsible for obtaining medical histories, performing physical examinations, ordering and interpreting diagnostic tests, assessing medical conditions, providing medical care and treatment, and performing related duties as required under standardized procedures and/or protocols established by the department in one of the City\u2019s correctional care facilities.",
             "qualifications": "<p>Must be licensed as a: <ul> <li>Registered Nurse and certified as a Nurse Practitioner by the California Board of Registered Nursing with documentation of education and training as a Nurse Practitioner in family practice, adult, or emergency medicine, and possess a current license and Furnishing Number which provides the ability to provide drug/medication orders in the State of California; or</li> <li>Physician Assistant with documentation of education and training as a Physician Assistant in family practice, adult, or emergency medicine, and possess a current license and Furnishing Number which provides the ability to provide drug/medication orders in the State of California; </li> </ul> </p>",
             "responsibilities": "<ul><li>Performs triage and assessment.</li> <li>Obtains health histories.</li> <li>Performs physical examinations.</li> <li>Orders X-rays and laboratory tests.</li> <li>Performs routine diagnostic tests.</li> <li>Establishes diagnoses.</li> <li>Treats and manages health problems.</li> <li>Administers immunizations and injections.</li> <li>Instructs and counsels patients.</li> <li>Provides continuing care to patients in the jail clinics.</li> <li>Provides referrals within the health care system.</li> <li>Performs minor surgery.</li> <li>May occasionally be assigned to other duties for training purposes or to meet technological changes or emergencies.</li></ul>",
             "exam_notes": "The examination will consist of an evaluation of training and experience, wherein candidates will be evaluated on their knowledge, experience, professional background and personal qualifications and abilities. Emphasis will be placed on their knowledge of: professional medical theories and practices; techniques for taking medical histories and conducting physical examinations; safety principles and practices; medical management for routine medical conditions; and the ability to: act independently and in accordance with established protocols and/or procedures; evaluate technical medical data and make diagnoses; conduct comprehensive and focused physical examinations; and other necessary skills,knowledge and abilities.",
@@ -1331,12 +1331,12 @@
             ],
             "salary_low": 77861,
             "salary_high": 113858,
-            "external_url": "https://www.governmentjobs.com/careers/lacity/classspecs/741377",
+            "external_url": "https://www.governmentjobs.com/careers/lacity/classspecs/1196792",
             "career_ladder_url": "",
-            "alias": "advance-practice-provider-correctional-care",
+            "alias": "advance-practice-provider",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1046
+            "class_code": 2325
         }
     },
     {
@@ -1364,7 +1364,7 @@
             "alias": "licensed-vocational-nurse",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1047
+            "class_code": 2332
         }
     },
     {
@@ -1392,7 +1392,7 @@
             "alias": "electrical-mechanic",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1048
+            "class_code": 3841
         }
     },
     {
@@ -1420,7 +1420,7 @@
             "alias": "electric-meter-setter",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1049
+            "class_code": 3822
         }
     },
     {
@@ -1451,7 +1451,7 @@
             "alias": "elevator-mechanic",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1050
+            "class_code": 3866
         }
     },
     {
@@ -1479,7 +1479,7 @@
             "alias": "communications-cable-worker",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1051
+            "class_code": 3802
         }
     },
     {
@@ -1510,7 +1510,7 @@
             "alias": "air-conditioning-mechanic",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1052
+            "class_code": 3774
         }
     },
     {
@@ -1538,7 +1538,7 @@
             "alias": "helicopter-mechanic",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1053
+            "class_code": 3742
         }
     },
     {
@@ -1566,7 +1566,7 @@
             "alias": "workers-compensation-claims-assistant",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1054
+            "class_code": 1775
         }
     },
     {
@@ -1594,7 +1594,7 @@
             "alias": "senior-workers-compensation-analyst",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1055
+            "class_code": 1769
         }
     },
     {
@@ -1622,7 +1622,7 @@
             "alias": "wastewater-collection-worker",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1056
+            "class_code": 4110
         }
     },
     {
@@ -1650,7 +1650,7 @@
             "alias": "wastewater-treatment-mechanic",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1057
+            "class_code": 5614
         }
     },
     {
@@ -1678,7 +1678,7 @@
             "alias": "water-utility-worker",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1058
+            "class_code": 3912
         }
     },
     {
@@ -1706,7 +1706,7 @@
             "alias": "auto-painter",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1059
+            "class_code": 3721
         }
     },
     {
@@ -1734,7 +1734,7 @@
             "alias": "tree-surgeon-supervisor",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1060
+            "class_code": 3117
         }
     },
     {
@@ -1762,7 +1762,7 @@
             "alias": "traffic-painter-and-sign-poster",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1061
+            "class_code": 3421
         }
     },
     {
@@ -1790,7 +1790,7 @@
             "alias": "tree-surgeon",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1062
+            "class_code": 3114
         }
     },
     {
@@ -1818,7 +1818,7 @@
             "alias": "building-mechanical-inspector",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1063
+            "class_code": 4251
         }
     },
     {
@@ -1846,7 +1846,7 @@
             "alias": "division-librarian",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1064
+            "class_code": 6157
         }
     },
     {
@@ -1874,7 +1874,7 @@
             "alias": "senior-custodian",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1065
+            "class_code": 3157
         }
     },
     {
@@ -1902,7 +1902,7 @@
             "alias": "public-information-director",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1066
+            "class_code": 1800
         }
     },
     {
@@ -1930,7 +1930,7 @@
             "alias": "librarian",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1067
+            "class_code": 6152
         }
     },
     {
@@ -1961,7 +1961,7 @@
             "alias": "police-service-representative",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1068
+            "class_code": 2207
         }
     },
     {
@@ -1989,7 +1989,7 @@
             "alias": "director-of-housing",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1069
+            "class_code": 1568
         }
     },
     {
@@ -2017,7 +2017,7 @@
             "alias": "detention-officer",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1070
+            "class_code": 3211
         }
     },
     {
@@ -2045,7 +2045,7 @@
             "alias": "port-police-officer",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1071
+            "class_code": 3221
         }
     },
     {
@@ -2073,7 +2073,7 @@
             "alias": "police-officer",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1072
+            "class_code": 2214
         }
     },
     {
@@ -2101,7 +2101,7 @@
             "alias": "firefighter",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1073
+            "class_code": 2112
         }
     },
     {
@@ -2132,7 +2132,7 @@
             "alias": "police-service-assistant",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1074
+            "class_code": 2202
         }
     },
     {
@@ -2160,7 +2160,7 @@
             "alias": "security-officer",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1075
+            "class_code": 3181
         }
     },
     {
@@ -2188,7 +2188,7 @@
             "alias": "background-investigator",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1076
+            "class_code": 1764
         }
     },
     {
@@ -2216,7 +2216,7 @@
             "alias": "water-biologist",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1077
+            "class_code": 7856
         }
     },
     {
@@ -2247,7 +2247,7 @@
             "alias": "video-technician",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1078
+            "class_code": 6145
         }
     },
     {
@@ -2275,7 +2275,7 @@
             "alias": "director-of-security-services",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1079
+            "class_code": 3208
         }
     },
     {
@@ -2303,7 +2303,7 @@
             "alias": "applications-programmer",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1080
+            "class_code": 1429
         }
     },
     {
@@ -2331,7 +2331,7 @@
             "alias": "systems-programmer",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1081
+            "class_code": 1455
         }
     },
     {
@@ -2359,7 +2359,7 @@
             "alias": "information-services-specialist",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1082
+            "class_code": 1456
         }
     },
     {
@@ -2387,7 +2387,7 @@
             "alias": "heavy-duty-truck-operator",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1083
+            "class_code": 3584
         }
     },
     {
@@ -2415,7 +2415,7 @@
             "alias": "refuse-collection-truck-operator",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1084
+            "class_code": 3580
         }
     },
     {
@@ -2443,7 +2443,7 @@
             "alias": "meter-reader",
             "time_created": "2017-09-02 12:39:14",
             "time_updated": "2017-09-02 12:39:14",
-            "class_code": 1085
+            "class_code": 1611
         }
     }
 ]
