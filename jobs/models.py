@@ -62,3 +62,13 @@ class JobClass(models.Model):
         return '<JobClass: [{class_code}] {title}>'.format(
             class_code=self.class_code,
             title=self.title)
+
+
+class ExamDate(models.Model):
+
+    time_created = models.DateTimeField(auto_now_add=True)
+    time_updated = models.DateTimeField(auto_now=True)
+
+    class_code = models.IntegerField(unique=True)
+    open_date = models.DateField(null=True)
+    exam_date = models.DateField(null=True)
