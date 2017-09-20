@@ -23,3 +23,13 @@ def make_job_details(job_class):
         responsibilities=job_class.responsibilities,
         qualifications=job_class.qualifications,
         exam_notes=job_class.exam_notes)
+
+
+def format_exam_date(exam_date_model):
+    if not exam_date_model:
+        return None
+
+    exam_date = exam_date_model.exam_date
+    if exam_date:
+        return exam_date.strftime('%B {d}, %Y').format(d=exam_date.day)
+    return None

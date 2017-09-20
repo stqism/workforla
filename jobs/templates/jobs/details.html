@@ -12,7 +12,11 @@
   </div>
 
   <h3>Exam Date</h3>
-  <p>TBD</p>
+  {% if exam_date %}
+    <p>{{exam_date}}</p>
+  {% else %}
+    <p>An exam has not been scheduled for this job yet.</p>
+  {% endif %}
 
   <h3>Description</h3>
   <div class="jd-section">
