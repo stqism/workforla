@@ -41,8 +41,8 @@ class JobClass(models.Model):
     classspec_id = models.IntegerField(unique=True)
 
     title = models.CharField(max_length=200)
-    occupational_category = models.CharField(max_length=200)
-    skills = models.CharField(max_length=200)
+    occupational_category = models.CharField(max_length=200, blank=True)
+    skills = models.CharField(max_length=200, blank=True)
     related_keywords = models.CharField(max_length=200)
     categories = models.ManyToManyField(Category)
     salary_low = models.IntegerField(default=0, null=False)
@@ -50,13 +50,13 @@ class JobClass(models.Model):
 
     # URL fields
     external_url = models.URLField()
-    career_ladder_url = models.URLField()
+    career_ladder_url = models.URLField(blank=True)
 
     # Large content fields
     description = models.TextField()
-    qualifications = models.TextField()
-    responsibilities = models.TextField()
-    exam_notes = models.TextField()
+    qualifications = models.TextField(blank=True)
+    responsibilities = models.TextField(blank=True)
+    exam_notes = models.TextField(blank=True)
 
     def __str__(self):
         return '<JobClass: [{class_code}] {title}>'.format(
