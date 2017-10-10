@@ -11,8 +11,7 @@ from jobs.view_util import format_exam_date
 
 
 def index(request):
-    context = {'time': datetime.datetime.now().isoformat()}
-    return render(request, 'jobs/index.html', context)
+    return render(request, 'jobs/index.html', {})
 
 
 def details(request, job_alias):

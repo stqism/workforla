@@ -1,11 +1,19 @@
 {% extends "base.html" %}
 
+{% load static %}
+
+{% block scripts %}
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+{% endblock %}
+
 {% block title %}Work For LA | Jobs{% endblock %}
 
 {% block content %}
   <h1>Jobs</h1>
 
-  <p>Search for jobs.</p>
+  <div id="search-container"></div>
+{% endblock %}
 
-  <p>{{ time }}</p>
+{% block foot_scripts %}
+  <script src="{% static "js/bundle.js" %}"></script>
 {% endblock %}
