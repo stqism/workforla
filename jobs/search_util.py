@@ -8,9 +8,9 @@ from elasticsearch_dsl import Search
 
 JOBS_INDEX = 'jobs'
 SNIPPET_LENGTH = 200
+QUERY_TYPE = 'phrase_prefix'
 QUERY_FIELDS = [
-    'title',
-    'description',
+    'title^2',
     'related_keywords',
     'categories'
 ]
@@ -41,6 +41,7 @@ def search_by_keyword(query_string):
     search = search.query(
         'multi_match',
         query=query_string,
+        type=QUERY_TYPE,
         fields=QUERY_FIELDS)
     response = search.execute()
     return [
