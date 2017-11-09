@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %}Work For LA{% endblock %}
+
+{% block jumbotron %}
+<!--Crums-->
+<div class="crumb-wrap">
+  <ol class="aboutcrumb">
+    <li id="aboutcrumb-1" class="breadcrumb-item"><a href="/">Home</a></li>
+    <li id="aboutcrumb-2" class="breadcrumb-item active">About</li>
+  </ol>
+{% endblock %}{% block content %}
+<!--Banner-->
+
+<div class="banner-wrap">
+  <img class="img-fluid" src="static/img/aboutbanner.png"/>
+</div>
+
+<div class="about">
+  <h1>About Us</h1>
+</div>
+
+<div class="about-text" id="mission">
+  <h2>Our Mission</h2>
+  <p>We want to open the doors for job seekers everywhere to the great employment opportunities at the City of Los Angeles, Making it easier and clearer how to apply.</p>
+</div>
+
+<div class="resources-wrap">
+  <div class="resources">
+    <p>Resources</p>
+    <a href="#">www.lacity.org</a>
+    <a href="#">www.per.lacity.org</a>
+    <a href="#">www.jobsla.org</a>
+    <a href="#">www.governmentjobs.com</a>
+    <a href="#">www.laperannualreport.com</a>
+  </div>
+</div>
+
+<div class="about-text" id="team">
+  <h2>Our Team</h2>
+  <p>Work for LA is a project born in the Hack for LA community and built by volunteers from a wide range of professional industries, coming together from different backgrounds with one objective: creating a platform to help people understand and navigate the overcomplicated hiring process for Civil Service jobs with the City of Los Angeles.</p>
+</div>
+
+<div class="about-text" id="hack">
+  <h2>Hack for LA</h2>
+  <p>Hack for LA is the official Los Angeles chapter of Code for America, a national nonprofit that believes government can work for the people, by the people, in the 21st century. We bring together coders, designers, entrepreneurs, students, government staff, activists, and other civi-minded people to solve the LA region’s biggest civic challenges.</p>
+</div>
+
+<div class="about-text" id="join">
+  <h2>Want to Contribute? Join Us!</h2>
+  <p>Hack for LA hosts Civic Hack Night weekly on Tuesday nights at 6:00 p.m.  Located in the Los Angeles Arts District at <a href="#">The Los Angeles Cleantech Incubator (LACI), La Kretz Innovation Campus.</a></p>
+</div>
+
+<!--Opportunities-->
+
+<div class="opp-wrap">
+  <div class="opp">
+    <div class="opp-img">
+    <img class="img-block" src="static/img/opportunities.png">
+  </div>
+  <div class="opp-text">
+    <h2>Want an exciting new career?</h2>
+    <p>From engineering to teaching, there’s a City opportunity just for you.</p>
+    <a href="#">Find Opportunities</a>
+    <a href="#"><img src="static/img/faqs-arrow.png"></a>
+  </div>
+  </div>
+</div>
+
+{% endblock %}

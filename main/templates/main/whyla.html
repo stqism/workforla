@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %}Work For LA{% endblock %}
+
+{% block jumbotron %}
+<!--Crums-->
+<div class="crumb-wrap">
+  <ol class="aboutcrumb">
+    <li id="aboutcrumb-1" class="breadcrumb-item"><a href="/">Home</a></li>
+    <li id="aboutcrumb-2" class="breadcrumb-item active">Why LA</li>
+  </ol>
+{% endblock %}{% block content %}
+<!--Banner-->
+
+<div class="banner-wrap">
+  <img class="img-fluid" src="static/img/appbanner.png"/>
+</div>
+
+<div class="why">
+  <h1>Why Work for Los Angeles</h1>
+  <h3>The benefits are great. Your impact is too.</h3>
+</div>
+
+<div class="resources-wrap">
+  <div class="resources">
+    <p>Resources</p>
+    <a href="#">www.lacity.org</a>
+    <a href="#">www.per.lacity.org</a>
+    <a href="#">www.jobsla.org</a>
+    <a href="#">www.governmentjobs.com</a>
+    <a href="#">www.laperannualreport.com</a>
+  </div>
+</div>
+
+<div class="about-text" id="pay">
+  <h2>Competitive Pay</h2>
+  <p>The City offers competitive pay and yearly raises that cover the cost of living.</p>
+</div>
+
+<div class="about-text" id="benefits">
+  <h2>Excellent Benefits</h2>
+  <p>As a City employee, you receive excellent benefits that include a pension and health insurance.</p>
+</div>
+
+<div class="about-text" id="time">
+  <h2>Generous Personal Time Off</h2>
+  <p>As a City employee, you receive yearly vacation, sick days and every other Friday off.</p>
+</div>
+
+<div class="about-text" id="meaningful">
+  <h2>Meaningful Work</h2>
+  <p>After you receive your score, you’ll begin receiving job notification emails. (The higher your score, the sooner you’ll start receiving them.) Call the number on the notification email to tell them that you’re interested in interviewing. (The Department will interview the candidates with the top scores who call in, so if you don’t get scheduled for an interview, don’t worry, and just call in for the next one.)</p>
+</div>
+
+<!--Opportunities-->
+
+<div class="opp-wrap">
+  <div class="opp">
+    <div class="opp-img">
+    <img class="img-block" src="static/img/opportunities.png">
+  </div>
+  <div class="opp-text">
+    <h2>Want an exciting new career?</h2>
+    <p>From engineering to teaching, there’s a City opportunity just for you.</p>
+    <a href="#">Find Opportunities</a>
+    <a href="#"><img src="static/img/faqs-arrow.png"></a>
+  </div>
+  </div>
+</div>
+
+{% endblock %}

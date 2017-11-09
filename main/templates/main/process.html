@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %}Work For LA{% endblock %}
+
+{% block jumbotron %}
+<!--Crums-->
+<div class="crumb-wrap">
+  <ol class="aboutcrumb">
+    <li id="aboutcrumb-1" class="breadcrumb-item"><a href="/">Home</a></li>
+    <li id="aboutcrumb-2" class="breadcrumb-item active">Process</li>
+  </ol>
+{% endblock %}{% block content %}
+<!--Banner-->
+
+<div class="banner-wrap">
+  <img class="img-fluid" src="static/img/appbanner.png"/>
+</div>
+
+<div class="application">
+  <h1>Application Process</h1>
+  <h3>Applying to work for the city is a little <br>complicated, but we can break it down <br>for you step by step.</h3>
+</div>
+
+<div class="resources-wrap">
+  <div class="resources">
+    <p>Resources</p>
+    <a href="#">www.lacity.org</a>
+    <a href="#">www.per.lacity.org</a>
+    <a href="#">www.jobsla.org</a>
+    <a href="#">www.governmentjobs.com</a>
+    <a href="#">www.laperannualreport.com</a>
+  </div>
+</div>
+
+<div class="about-text" id="team">
+  <h2>Apply for a job</h2>
+  <p>Complete the application for a job on the <a href="#">GovernmentJobs.com</a> website. Pay close attention to the requirements when you do.</p>
+</div>
+
+<div class="about-text" id="hack">
+  <h2>Take any relevant exams</h2>
+  <p>Check your email regularly for updates on the status of your application. If your application is accepted, you’ll be invited via email for the exam process.
+Exams vary depending on the position. The exams are job-specific, so they will test skill and knowledge that you may need to perform the job. They may include multiple choice tests, essays, practical tests, and in-person interviews. Timing is different for each exam, so pay close attention to emails you receive.</p>
+</div>
+
+<div class="about-text" id="score">
+  <h2>Receive your score</h2>
+  <p>After your exam, you’ll receive a score. This score indicates how high you rank on the civil service list for your job.</p>
+</div>
+
+<div class="about-text" id="notification">
+  <h2>Receive job notifications</h2>
+  <p>After you receive your score, you’ll begin receiving job notification emails. (The higher your score, the sooner you’ll start receiving them.) Call the number on the notification email to tell them that you’re interested in interviewing. (The Department will interview the candidates with the top scores who call in, so if you don’t get scheduled for an interview, don’t worry, and just call in for the next one.)</p>
+</div>
+
+<div class="about-text" id="interview">
+  <h2>Interview for the job</h2>
+  <p>Interviews for civil service jobs are generally panel interviews involving two or three panelists. The interview questions are determined in advance, and all candidates are asked the same list of questions. As such, you will not get asked a question like, “Tell us more about your experience at Smith & Co.” Instead, you will more likely get generic questions like, “Tell us how your background and experience prepares you for this position.” The Department will call references for the top-scoring candidates, and the candidate with the strongest qualifications will be offered the position. </p>
+</div>
+
+<!--Opportunities-->
+
+<div class="opp-wrap">
+  <div class="opp">
+    <div class="opp-img">
+    <img class="img-block" src="static/img/opportunities.png">
+  </div>
+  <div class="opp-text">
+    <h2>Want an exciting new career?</h2>
+    <p>From engineering to teaching, there’s a City opportunity just for you.</p>
+    <a href="#">Find Opportunities</a>
+    <a href="#"><img src="static/img/faqs-arrow.png"></a>
+  </div>
+  </div>
+</div>
+
+{% endblock %}
